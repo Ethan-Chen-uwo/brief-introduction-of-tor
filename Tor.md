@@ -64,6 +64,13 @@ When using the Tor Bundle, you may disable these protections and enable JavaScri
 If you care about anonymity, don't do it. If you don't care about anonymity, don't use Tor.
 
 ![risk][introduction-image]
+## References
+***"How does Tor work" on Youtube***
+
+[![video](https://i.ytimg.com/an_webp/LAcGiLL4OZU/mqdefault_6s.webp?du=3000&sqp=CLzjx4IG&rs=AOn4CLBNmXN6YD-w_GgzNPDwZPLQMq7FXw)](https://www.youtube.com/watch?v=LAcGiLL4OZU)
+
+[^1]: Documentation of Tor, [Link](https://2019.www.torproject.org/docs/documentation.html.en).
+[^2]: Download Tor Browser, [Link](https://www.torproject.org/).
 
 [introduction-image]: ./introduction.png
 [circuit-image]: ./circuit.png
