@@ -1,5 +1,5 @@
-# A Breif Introduction of Tor#
-## Background##
+# A Breif Introduction of Tor
+## Background
 The Tor Project, Inc, became a 501(c)3 nonprofit in 2006, but the idea of "onion routing" began in the mid 1990s.
 
 Labeled as "Dark Web Entrance", "Using by the National Security Agency", "Having relays all over the world", "Open Anonymous Network", and "Most Advanced Means of Obfuscation“
@@ -7,18 +7,18 @@ Labeled as "Dark Web Entrance", "Using by the National Security Agency", "Having
 Tor has become the world's strongest tool for privacy and freedom online.
 
 ![introduction][introduction-image]
-## The Communication Process of Tor##
+## The Communication Process of Tor
 In most cases, the remote servers will know our IP address when we establish a connection with them. It causes leakage of user's geographical location information.
 
 Tor is the acronym of “the Onion Router”. Through Tor, users can communicate anonymously on the Internet.
 
 In fact, Tor is a special kind of proxy which passes users traffic through at least three proxy nodes. And the proxy nodes changes periodically.
-### The Process of Creating Tor Circuits###
+### The Process of Creating Tor Circuits
 As shown in the picture. In order to access Bob's server anonymously, at first, Alice will randomly select three nodes in the Tor network according to the information from the Directory Servers. Directory Servers are trusted nodes which provide signed directories describing known nodes and their current state.
 
 And through this random 3-relay nodes, Alice can send message to Bob without leak IP address. Because none of the relay node and Bob know the entire circuit. Furthermore, the circuit is temporary and will be rebuilt periodically.
 
-### Encryption Methods###
+### Encryption Methods
 Without encryption, malicious relay node can learn the content and know the whole circuit information. 
 
 Tor uses an incremental path-building method, where the initiator(Alice) negotiates session keys with each relay node in the circuit. 
@@ -50,7 +50,7 @@ Step three: Firstly, the user randomly selects a relay node as the Rendezvous Po
 Step four: Onion server receive the message from Introduction Point and decrypt the IP address of the Rendezvous Point and the "secret" using its own private key. Then send the "secret" back to the Rendezvous Point through Tor circuit to verify. Finally, the connection between user and onion server is established. And both sides of the communication is anonymous.
 
 ![onionservice][onionservice-image]
-## Risk and Vulnerability##
+## Risk and Vulnerability
 You should think twice about being an exit relay.
 
 An exit relay is a node that connects data from an anonymous Tor network to the open Internet.
