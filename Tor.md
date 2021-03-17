@@ -70,6 +70,7 @@ If you care about anonymity, don't do it. If you don't care about anonymity, don
 [![video](https://i.ytimg.com/an_webp/LAcGiLL4OZU/mqdefault_6s.webp?du=3000&sqp=CLzjx4IG&rs=AOn4CLBNmXN6YD-w_GgzNPDwZPLQMq7FXw)](https://www.youtube.com/watch?v=LAcGiLL4OZU)
 
 [^1]: Documentation of Tor, [Link](https://2019.www.torproject.org/docs/documentation.html.en).
+
 [^2]: Download Tor Browser, [Link](https://www.torproject.org/).
 
 [introduction-image]: ./introduction.png
