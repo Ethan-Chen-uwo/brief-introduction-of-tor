@@ -67,7 +67,7 @@ If you care about anonymity, don't do it. If you don't care about anonymity, don
 ## References
 ***"How does Tor work" on Youtube***
 
-[![video](https://i.ytimg.com/an_webp/LAcGiLL4OZU/mqdefault_6s.webp?du=3000&sqp=CLzjx4IG&rs=AOn4CLBNmXN6YD-w_GgzNPDwZPLQMq7FXw)](https://www.youtube.com/watch?v=LAcGiLL4OZU)
+[![video](./mqdefault_6s.webp)](https://www.youtube.com/watch?v=LAcGiLL4OZU)
 
 Documentation of Tor, [Link](https://2019.www.torproject.org/docs/documentation.html.en).
 
